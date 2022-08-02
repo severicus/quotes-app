@@ -1,0 +1,23 @@
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+}
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+}
+
+.hero {
+  display: flex;
+  gap: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.hero div {
+  padding: 10px;
+}
