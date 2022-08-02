@@ -36,7 +36,7 @@ const PORT = 8000;
 const MongoClient = require("mongodb").MongoClient;
 
 MongoClient.connect(
-  `mongodb+srv://severicus:Xt3wyg98@cluster0.j85h2d6.mongodb.net/?retryWrites=true&w=majority`,
+  `mongodb+srv://severicus:<your-password-here>@cluster0.j85h2d6.mongodb.net/?retryWrites=true&w=majority`,
   { useUnifiedTopology: true }
 )
   .then((client) => {
